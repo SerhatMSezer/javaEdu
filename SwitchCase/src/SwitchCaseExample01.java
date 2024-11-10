@@ -1,6 +1,6 @@
 public class SwitchCaseExample01 {
     public static void main(String[] args) {
-        int number=15;
+        int number=3;
         switch(number)
         {
           case 1:
