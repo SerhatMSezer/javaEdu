@@ -6,17 +6,17 @@ public class AvarageFind
     public static void main(String[] args)
     {
     int  total=0;
-    float avarage;
+    float floatAvarage;
 
     for(int i=0; i<101; i++)
     {
       total=total+i;
 
     }
-        avarage= (float) total /100;
+        floatAvarage= (float) total /100;
 
         System.out.println("Total : "+total );
-        System.out.println("Average: "+avarage);
+        System.out.println("Average: "+ floatAvarage);
 
     }
 }
