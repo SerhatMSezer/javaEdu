@@ -23,7 +23,7 @@ public class CourseCalculate
         System.out.print("Final Notunu Giriniz: ");
         finalNot = scan.nextInt();
 
-        floatAvarageNot =((float) (vizeNot * 40) /100) + ((float) (finalNot * 60) /100);
+        floatAvarageNot = ((float) (vizeNot * 40) /100) + ((float) (finalNot * 60) /100);
         avarageNot = (int) floatAvarageNot;
 
         if(avarageNot >= 85 && avarageNot < 100)
